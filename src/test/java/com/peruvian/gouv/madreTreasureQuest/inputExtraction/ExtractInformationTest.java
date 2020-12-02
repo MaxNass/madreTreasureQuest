@@ -117,7 +117,7 @@ public class ExtractInformationTest {
     }
 
     @Test
-    public void test_not_is_a_valid_type_line() {
+    public void test_is_not_a_valid_type_line() {
         final String info = "F - Lara - 1 - 1 - S - AADADAGGA";
         final InformationType informationType = ExtractInformation.extractInformationType(info);
         assertEquals(null, informationType);
