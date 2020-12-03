@@ -1,4 +1,4 @@
-package com.peruvian.gouv.madreTreasureQuest.adventurer.Utils;
+package com.peruvian.gouv.madreTreasureQuest.adventurer.utils;
 
 import com.peruvian.gouv.madreTreasureQuest.adventurer.model.Action;
 import com.peruvian.gouv.madreTreasureQuest.adventurer.model.Orientation;

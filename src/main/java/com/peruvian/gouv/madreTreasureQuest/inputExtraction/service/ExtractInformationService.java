@@ -1,12 +1,13 @@
-package com.peruvian.gouv.madreTreasureQuest.inputExtraction;
+package com.peruvian.gouv.madreTreasureQuest.inputExtraction.service;
 
-import com.peruvian.gouv.madreTreasureQuest.adventurer.Utils.AdventurerUtils;
+import com.peruvian.gouv.madreTreasureQuest.adventurer.utils.AdventurerUtils;
 import com.peruvian.gouv.madreTreasureQuest.adventurer.model.*;
+import com.peruvian.gouv.madreTreasureQuest.inputExtraction.InformationType;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ExtractInformation {
+public class ExtractInformationService {
 
     private static final String BLANK = " ";
 
