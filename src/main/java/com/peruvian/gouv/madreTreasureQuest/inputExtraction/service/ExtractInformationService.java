@@ -83,7 +83,7 @@ public class ExtractInformationService {
         return strings.length == 11 && informationLine.startsWith("A");
     }
 
-    public static boolean isAvalidTypeLine(String informationLine) {
+    public static boolean isAvalidTypeLine(final String informationLine) {
         final InformationType informationType = extractInformationType(informationLine);
         return informationType !=null;
     }

@@ -112,14 +112,14 @@ public class ExtractInformationServiceTest {
     @Test
     public void test_is_a_valid_type_line() {
         final String info = "A - Lara - 1 - 1 - S - AADADAGGA";
-        final InformationType informationType = ExtractInformationService.extractInformationType(info);
-        assertEquals(InformationType.ADVENTURER, informationType);
+        final boolean aValidTypeLine = ExtractInformationService.isAvalidTypeLine(info);
+        assertEquals(true, aValidTypeLine);
     }
 
     @Test
     public void test_is_not_a_valid_type_line() {
         final String info = "F - Lara - 1 - 1 - S - AADADAGGA";
-        final InformationType informationType = ExtractInformationService.extractInformationType(info);
-        assertEquals(null, informationType);
+        final boolean aValidTypeLine = ExtractInformationService.isAvalidTypeLine(info);
+        assertEquals(false, aValidTypeLine);
     }
 }
