@@ -1,9 +1,9 @@
-package com.peruvian.gouv.madreTreasureQuest.inputExtraction.service;
+package com.peruvian.gouv.madreTreasureQuest.input.service;
 
 import com.peruvian.gouv.madreTreasureQuest.adventurer.model.Adventurer;
 import com.peruvian.gouv.madreTreasureQuest.adventurer.model.Orientation;
 import com.peruvian.gouv.madreTreasureQuest.adventurer.model.Position;
-import com.peruvian.gouv.madreTreasureQuest.inputExtraction.InformationType;
+import com.peruvian.gouv.madreTreasureQuest.input.model.InformationType;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

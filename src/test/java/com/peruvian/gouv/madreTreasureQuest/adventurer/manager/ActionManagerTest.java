@@ -123,6 +123,7 @@ public class ActionManagerTest {
 
     @Test
     public void test_condition_is_not_having_an_mountain_in_front_of_him() {
+
         madreDeDiosMap.createMatrix(3,3);
         for (int i = 0; i < madreDeDiosMap.getNumberOfLines(); i++) {
             for (int j = 0; j < madreDeDiosMap.getNumberOfLines(); j++) {
@@ -143,6 +144,7 @@ public class ActionManagerTest {
 
     @Test
     public void test_condition_is_inside_map_limits() {
+
         madreDeDiosMap.createMatrix(3,3);
         for (int i = 0; i < madreDeDiosMap.getNumberOfLines(); i++) {
             for (int j = 0; j < madreDeDiosMap.getNumberOfLines(); j++) {
@@ -163,6 +165,7 @@ public class ActionManagerTest {
 
     @Test
     public void test_condition_is_there_any_treasure_in_front_of_him() {
+
         madreDeDiosMap.createMatrix(3,3);
         for (int i = 0; i < madreDeDiosMap.getNumberOfLines(); i++) {
             for (int j = 0; j < madreDeDiosMap.getNumberOfLines(); j++) {

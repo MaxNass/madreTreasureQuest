@@ -1,4 +1,4 @@
-package com.peruvian.gouv.madreTreasureQuest.inputExtraction;
+package com.peruvian.gouv.madreTreasureQuest.input.model;
 
 public class InformationLine {
 

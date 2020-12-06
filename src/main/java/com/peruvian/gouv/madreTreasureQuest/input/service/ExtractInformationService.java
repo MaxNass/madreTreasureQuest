@@ -1,8 +1,8 @@
-package com.peruvian.gouv.madreTreasureQuest.inputExtraction.service;
+package com.peruvian.gouv.madreTreasureQuest.input.service;
 
 import com.peruvian.gouv.madreTreasureQuest.adventurer.utils.AdventurerUtils;
 import com.peruvian.gouv.madreTreasureQuest.adventurer.model.*;
-import com.peruvian.gouv.madreTreasureQuest.inputExtraction.InformationType;
+import com.peruvian.gouv.madreTreasureQuest.input.model.InformationType;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -52,7 +52,7 @@ public class ExtractInformationService {
     }
 
     private static List<AdventurerMovement> extractAdventurerMovement(String smoves) {
-        List<AdventurerMovement> adventurerMovements = new ArrayList<>();
+        final List<AdventurerMovement> adventurerMovements = new ArrayList<>();
         final String[] moves = smoves.split("");
         for (String move : moves) {
             final Action actionFromString = AdventurerUtils.getActionFromString(move);
